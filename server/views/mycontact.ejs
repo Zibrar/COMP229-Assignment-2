@@ -1,0 +1,80 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+<h2 style="padding-left: 500px; padding-top: 20px;"><i><span style="font-family:'Courier New', Courier, monospace; color:olivedrab">Contact Information</span></i></h2>
+<div id="r_design"  class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded nameDiv">
+ <h4>Relative Information:</h4>
+ </div>
+ <div style="font-size: 20px;">
+<div  id = "tablec" >
+ <table>
+   <tr>
+     <td>First Name:</td>
+     <td>Gitansh Mittal:</td>
+ </tr>
+ <tr>
+     <td>Last name:</td>
+     <td>Mittal</td>
+ </tr>
+  
+     <tr>
+       <td>College:</td>
+       <td>  Centennial College</td>
+     </tr>
+      <tr></tr>
+     <tr>
+       <td>Email:</td>
+       <td><a href="mailt0:gitanshmittal5@gmail.com">gitanshmittal5@gmail.com</a></td>
+   </tr>
+   <tr>
+       <td>Resume</td>
+       <td><a href="/assets/pdf/resume.pdf">Resume.</a></td>
+     </tr>
+     <tr></tr>
+     <tr>
+       <td>Phone:</td>
+       <td>  (345) 4343 2344</td>
+     </tr>
+     
+   
+ </table>
+</div>
+
+
+<form id="contactform" action="/">
+ <div>
+     <label>First name</label>&nbsp;&nbsp;&nbsp;
+     <input type="text" placeholder="first name" required>
+ </div>
+ <div>
+     <label>Last name</label>&nbsp;&nbsp;&nbsp;
+     <input type="text" placeholder="last name" required>
+ </div>
+ <div >
+     <label style="padding-right: 40px ;">Email</label>&nbsp;&nbsp;&nbsp;
+     <input type="email" placeholder="example@xyz.com" required>
+ </div>
+ 
+ <div>
+   <label style="padding-right: 25px ;">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="tel" placeholder="(XXX)-xxxx-xxxx" required>
+</div>
+ <div>
+     <label>Assistance Needed</label>
+     <input type="text" required>
+ </div>
+ <br>
+ <div>
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+ </div>
+</form>
+
+
+
+</div>
+ <footer style="position: absolute; bottom: 10px; padding-left: 10%;">Copyright &copy Gitansh Mittal(301200517) - Portfolio </footer>
+
+
+<%- include partials/footer.ejs %>

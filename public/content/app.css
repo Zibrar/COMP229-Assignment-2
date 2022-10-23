@@ -1,0 +1,104 @@
+/* Name  Gitansh Mittal 
+   student id  301200517
+   Date 14 Oct 2022 
+   File Name   app.css
+*/
+
+
+
+
+#b_design {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+}
+
+h1{
+   text-transform: uppercase  ;
+}
+p{
+    padding: 1%;
+}
+#img1{
+    float:right;
+    padding-left: 60px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-right: 60px;
+  
+}
+#name{
+   
+    text-align: center; 
+    background-color: grey;
+    padding:10px;
+    position:absolute;
+    bottom: 100px;
+    right: 130px;
+
+}
+#r_design {
+
+    
+    text-align: center; 
+    background-color: grey;
+    padding:10px;
+    position:absolute;
+    right: 300px;
+    bottom:600px;
+}
+#tablec{
+    
+    position:absolute;
+    right: 130px;
+    width: 400px;
+     border: 0px solid black;
+      padding: 10px; 
+      margin: 10px;
+      bottom: 350px;
+}
+#contactform{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+#service{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#quote{
+    padding-left: 20%;
+    
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .price .header {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: whitesmoke;
+    font-size: 20px;
+  }
+
+  
