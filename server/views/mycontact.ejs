@@ -2,79 +2,54 @@
 
 <%- include partials/main_nav.ejs %>
 
-<h2 style="padding-left: 500px; padding-top: 20px;"><i><span style="font-family:'Courier New', Courier, monospace; color:olivedrab">Contact Information</span></i></h2>
-<div id="r_design"  class="bg-secondary d-lg-inline-block py-1-9 px-1-9 px-sm-6 mb-1-9 rounded nameDiv">
- <h4>Relative Information:</h4>
- </div>
- <div style="font-size: 20px;">
-<div  id = "tablec" >
- <table>
-   <tr>
-     <td>First Name:</td>
-     <td>Gitansh Mittal:</td>
- </tr>
- <tr>
-     <td>Last name:</td>
-     <td>Mittal</td>
- </tr>
-  
-     <tr>
-       <td>College:</td>
-       <td>  Centennial College</td>
-     </tr>
-      <tr></tr>
-     <tr>
-       <td>Email:</td>
-       <td><a href="mailt0:gitanshmittal5@gmail.com">gitanshmittal5@gmail.com</a></td>
-   </tr>
-   <tr>
-       <td>Resume</td>
-       <td><a href="/assets/pdf/resume.pdf">Resume.</a></td>
-     </tr>
-     <tr></tr>
-     <tr>
-       <td>Phone:</td>
-       <td>  (345) 4343 2344</td>
-     </tr>
-     
-   
- </table>
-</div>
-
-
-<form id="contactform" action="/">
- <div>
-     <label>First name</label>&nbsp;&nbsp;&nbsp;
-     <input type="text" placeholder="first name" required>
- </div>
- <div>
-     <label>Last name</label>&nbsp;&nbsp;&nbsp;
-     <input type="text" placeholder="last name" required>
- </div>
- <div >
-     <label style="padding-right: 40px ;">Email</label>&nbsp;&nbsp;&nbsp;
-     <input type="email" placeholder="example@xyz.com" required>
- </div>
- 
- <div>
-   <label style="padding-right: 25px ;">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;
-   <input type="tel" placeholder="(XXX)-xxxx-xxxx" required>
-</div>
- <div>
-     <label>Assistance Needed</label>
-     <input type="text" required>
- </div>
- <br>
- <div>
-     <button type="submit">Submit</button>
-     <button type="reset">Reset</button>
- </div>
-</form>
-
-
-
-</div>
- <footer style="position: absolute; bottom: 10px; padding-left: 10%;">Copyright &copy Gitansh Mittal(301200517) - Portfolio </footer>
-
+<!-- Contact Content -->
+<main class="contact" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="row mt-1">
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="fas fa-map-marked-alt"></i>
+            <h4>Location:</h4>
+            <p>937 Progress Avenue, Toronto, ON M1G 3T8</p>
+          </div>
+          <div class="email">
+            <i class="fas fa-envelope-square"></i>
+            <h4>Email:</h4>
+            <p>kpraja27@my.Centennialcollege.ca</p>
+          </div>
+          <div class="phone">
+            <i class="fas fa-phone"></i>
+            <h4>Call:</h4>
+            <p>+1 647 889-1672</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <form action="/contact" method="post" class="contact-form">
+          <div class="form-row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="fullname" class="form-control" id="fname" placeholder="Your Name" />
+            </div>
+            <div class="col-md-6 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- End Contact Content -->
 
 <%- include partials/footer.ejs %>

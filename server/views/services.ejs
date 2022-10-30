@@ -1,72 +1,94 @@
 <%- include partials/header.ejs %>
 
 <%- include partials/main_nav.ejs %>
-
-<h2 style="padding-left: 550px; padding-top: 20px;"><i><span style="font-family:'Courier New', Courier, monospace; color:olivedrab">Services Provided</span></i></h2>
-<br>
-<div id="quote">
-<p style="font-size: 20px; ">"Come and check the brilliant services provided by us at affordable prices"</p>
-</div>
-<div id="service">
-<h5>Web Application development</h5>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Basic</div>
-</div>
-<br>
-<h5>Coding help</h5>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Intermediate</div>
-</div>
-<br>
-<h5>Srs Development</h5>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance</div>
-</div>
-<br>
-<h5>Web form Creation</h5>
-<div class="progress">
-  <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advance</div>
-</div>
-<br>
-
-
-
-</div>
-
-<h2 style="text-align:center; "><i>Pricing</i></h2>
-<div style="padding-left:8%;padding-right: 8%; padding-bottom: 50px;;">
-<div class="columns">
-<ul class="price">
-<li class="header">Basic</li>
-<li class="grey">$ 50.00 / webpage</li>
-<li class="grey">$ 50.00 / web form</li>
-<li class="grey">$ 150.00 / Srs Document</li>
-<li class="grey"><a href="/mycontacts" class="button">Sign Up</a></li>
-</ul>
-</div>
-
-<div class="columns">
-<ul class="price">
-<li class="header" style="background-color:#04AA6D">Normal</li>
-<li class="grey">$ 80.00 / webpage</li>
-<li class="grey">$ 60.00 / web form</li>
-<li class="grey">$ 250.00 / Srs Document</li>
-<li class="grey"><a href="/mycontacts" class="button">Sign Up</a></li>
-</ul>
-</div>
-
-<div class="columns">
-<ul class="price">
-<li class="header">Premium</li>
-<li class="grey">$ 100.00 / webpage</li>
-<li class="grey">$ 80.00 / web form</li>
-<li class="grey">$ 450.00 / Srs Document</li>
-<li class="grey"><a href="/mycontacts" class="button">Sign Up</a></li>
-</ul>
-</div>
-</div>
-<div style="padding-top: 350px; padding-left: 10%;">
-<footer>Copyright &copy Gitansh Mittal(301200517) - Portfolio </footer>
-</div>
-
+<!-- Services Content -->
+<main class="services">
+  <div class="container">
+    <div class="section-title">
+      <h2>Services</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="fas fa-desktop" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Web Development</h2>
+            <p class="s-description text-center">
+              Customiziation and development for any kind of web platform.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="fas fa-code" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Application Development</h2>
+            <p class="s-description text-center">
+              Design, Development and Customization for Java and C# applications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="fas fa-mobile-alt" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Mobile Development</h2>
+            <p class="s-description text-center">
+            iOS & Android customized mobile application development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="fas fa-database" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Database Design</h2>
+            <p class="s-description text-center">
+              Database Design and Creation for any kind of business requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="fas fa-server" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Site Administration</h2>
+            <p class="s-description text-center">
+              Cloud site management for multiple platforms such as Azure, AWS, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <div class="service-ico">
+            <span class="ico-circle"><i class="far fa-edit" id="service-icon"></i></span>
+          </div>
+          <div class="service-content">
+            <h2 class="s-title">Software Design</h2>
+            <p class="s-description text-center">
+              Software Design and Architecture based on business requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="break"></div>
+  </div>
+</main>
+<!-- End Services Content -->
 <%- include partials/footer.ejs %>

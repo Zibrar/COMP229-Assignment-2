@@ -1,8 +1,3 @@
-/* Name  Gitansh Mittal 
-   student id  301200517
-   Date 14 Oct 2022 
-   File Name   app.css
-*/
 // installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');
